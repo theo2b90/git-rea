@@ -3,7 +3,7 @@ nav, body {
 }
 
 h3, nav{
-    background-color: #2b64bf;
+    background-color: #be3ba9;
 }
 
 div{
@@ -43,7 +43,6 @@ nav h3 img{
     min-height:20px;
 }
 
-
 .h3nav:hover{
     background-color:white;
     color:#2b64bf;
@@ -76,4 +75,11 @@ nav img{
 body+ img{
     height: 80%;
     width: 80%;
+}
+
+#banniere{
+        width: 800px;
+        height: 300px;
+        display:flex;
+        align-self:center;
 }
