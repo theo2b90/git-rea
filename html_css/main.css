@@ -1,0 +1,122 @@
+/* Generalités relatives à toutes les pages------------------------------------
+-------------------------------------------------------------------------------
+------------------------------------------------------------------------------- */
+
+/* selecteurs multiples------------------------------------------------------*/
+
+
+nav, body, footer {
+    display:flex; 
+}
+
+nav a, #imgnavexclu{
+    flex: 8 8 0;
+}
+
+nav a, nav{
+    background-color: #be3ba9;
+}
+
+div{
+    flex: 5 1 0;
+}
+
+/* généralités---------------------------------------------------------------------- */
+body, header{
+    margin:0;
+    padding: 0;
+    flex-direction:column;
+    background-image: url("img/background.webp");
+}
+
+a {
+    text-align:center;
+    text-decoration:none;
+    white-space:nowrap;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    flex-direction: column;
+    padding:15px 10px;
+    margin: 0px; 
+}
+
+nav{
+    box-shadow: 0px 0px 10px grey;
+    align-items:center;
+}
+
+/* Ciblage_precis---------------------------------------------------------------------- */
+
+
+nav #imgnavexclu{
+    border:none;
+    padding: 0px 30px 0px 0px;
+    min-width:57px;
+    max-width:57px;
+}
+
+.boxnav{
+    max-width: 120px;
+    border: 1px solid rgba(255, 255, 255, 0.103);
+}
+
+.boxnav2:hover{
+    color:#2b64bf;
+    background-color:white;
+}
+
+div p{ 
+    padding: 11px auto;
+}
+/* le padding de div p est obligatoire pour permettre à l'ensemble des cases du nav d'êtres à la même hauteur */
+
+
+#banniere{
+    width: 800px;
+    height: 300px;
+    display:flex;
+    margin: auto auto auto auto;
+}
+
+nav a, #imgnavexclu{
+    color:white;
+    font-weight: -10px;
+}
+
+
+footer a {
+    font-size:10px;
+    justify-content: center;
+    color: black;
+}
+
+#anavexclu{
+    flex-basis: auto;
+}
+/* Animations----------------------------------------------------------------------- */
+@keyframes animationaction {
+    from {
+        opacity:1;
+    }
+    to {
+        right:100em;
+        opacity:0;
+        position: absolute;
+        
+      }}
+
+header #banniere{
+    animation: animationaction 3s forwards;
+}
+
+/* Le display none ne fonctionnant pas dans une animation, il est necessaire d'exclure la bannière
+en l'ejectant de la page web OU d'utiliser un complément Javascript */
+
+/*Selecteurs relatifs à une page précise------------------------------------
+-------------------------------------------------------------------------------
+------------------------------------------------------------------------------- */
+
+
+
+
+
+
