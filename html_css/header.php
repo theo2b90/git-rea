@@ -13,4 +13,4 @@
         <a class ="boxnav boxnav2" href="profil.php">Mon profil</a>
         <div></div>
     </nav>
-    </header> 
+    </header>
