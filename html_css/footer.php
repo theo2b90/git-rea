@@ -1,3 +1,4 @@
+</div>
 <footer>
     <div></div>
     <a href ="conditions_et_regles.php">○ Conditions générales et règles de communauté</a>

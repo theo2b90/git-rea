@@ -16,7 +16,7 @@ nav a, #imgnavexclu{
 }
 
 nav a, nav{
-    background-color: #be3ba9;
+    background-color: #bf5ab8;
 }
 
 div{
@@ -45,6 +45,11 @@ a {
 nav{
     box-shadow: 0px 0px 10px grey;
     align-items:center;
+}
+
+#divBody{
+    margin : 8em 10em;
+    background-color:#C7CCD9;
 }
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -143,7 +148,22 @@ div label{
     margin-top: 2em; 
 }
 
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                Mon compte
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
+
+#divPhoto{
+    display : grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+}
+
+#divPhoto img, #divPhoto p {
+    height : 5em;
+    width : 5em;
+    background-color : black;
+}
 
 
 
