@@ -16,20 +16,20 @@
 
     <div id = "divPhoto">
         <div>
-            <img src =""><img>
+            <img src ="https://i.picsum.photos/id/1/200/200.jpg?hmac=jZB9EZ0Vtzq-BZSmo7JKBBKJLW46nntxq79VMkCiBG8"></img>
         </div>
 
         <div>
-            <img src =""></img>
-            <img src =""></img>
-            <p></p>
-            <img src =""></img>
-            <img src =""></img>
-            <img src =""></img>
-            <img src =""></img>
-            <p></p>
-            <img src =""></img>
-            <img src =""></img>
+            <img src ="https://i.picsum.photos/id/1/200/200.jpg?hmac=jZB9EZ0Vtzq-BZSmo7JKBBKJLW46nntxq79VMkCiBG8"></img>
+            <img src ="https://i.picsum.photos/id/1/200/200.jpg?hmac=jZB9EZ0Vtzq-BZSmo7JKBBKJLW46nntxq79VMkCiBG8"></img>
+            <button>supprimer</button>
+            <img src ="https://i.picsum.photos/id/1/200/200.jpg?hmac=jZB9EZ0Vtzq-BZSmo7JKBBKJLW46nntxq79VMkCiBG8"></img>
+            <img src ="https://i.picsum.photos/id/1/200/200.jpg?hmac=jZB9EZ0Vtzq-BZSmo7JKBBKJLW46nntxq79VMkCiBG8"></img>
+            <img src ="https://i.picsum.photos/id/1/200/200.jpg?hmac=jZB9EZ0Vtzq-BZSmo7JKBBKJLW46nntxq79VMkCiBG8"></img>
+            <img src ="https://i.picsum.photos/id/1/200/200.jpg?hmac=jZB9EZ0Vtzq-BZSmo7JKBBKJLW46nntxq79VMkCiBG8"></img>
+            <button>Modifier</button>
+            <img src ="https://i.picsum.photos/id/1/200/200.jpg?hmac=jZB9EZ0Vtzq-BZSmo7JKBBKJLW46nntxq79VMkCiBG8"></img>
+            <img src ="https://i.picsum.photos/id/1/200/200.jpg?hmac=jZB9EZ0Vtzq-BZSmo7JKBBKJLW46nntxq79VMkCiBG8"></img>
         </div>
     </div>
 

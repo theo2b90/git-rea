@@ -1,6 +1,6 @@
 
     <header>
-    <img id="banniere" src="img/banniere.png">
+    <!-- <img id="banniere" src="img/banniere.png"> -->
     <nav>
         <div></div>
         <img class ="boxnav" id="imgnavexclu" src="img/logo.png"><img>

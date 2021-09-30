@@ -7,7 +7,7 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
-nav, body, footer {
+nav, body, footer{
     display:flex; 
 }
 
@@ -31,7 +31,9 @@ body, header{
     padding: 0;
     flex-direction:column;
     background-image: url("img/background.webp");
+    max-width: auto;
 }
+
 
 a {
     text-align:center;
@@ -48,7 +50,7 @@ nav{
 }
 
 #divBody{
-    margin : 8em 10em;
+    margin: 6em 6em;
     background-color:#C7CCD9;
 }
 
@@ -84,7 +86,7 @@ div p{
 #banniere{
     width: 800px;
     height: 300px;
-    display:flex;
+    display: flex;
     margin: auto auto auto auto;
 }
 
@@ -152,25 +154,42 @@ div label{
                                                                 Mon compte
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-
 #divPhoto{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#divPhoto div:nth-child(2) {
     display : grid;
-    grid-template-columns: repeat(2, 1fr);
-    /* grid-template-rows: repeat(2, 1fr); */
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 }
 
-#divPhoto img, #divPhoto p {
-    height : 5em;
-    width : 5em;
+
+#divPhoto:first-child img, #divPhoto div:nth-child(2) img{
+
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
     background-color : black;
+    border:2px;
+    align-self: center;
 }
 
+#divPhoto div:first-child img {
+    width: 100%;
+    height: auto;
+}
 
+#divPhoto div:first-child {
+padding:5%;
 
+}
 
-
-
-
-
-
+#divPhoto div:nth-child(2) button {
+    align-self: center;
+    bottom: 16px;
+    height: 30%;
+    width: 100%;
+}
 
