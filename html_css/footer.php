@@ -1,4 +1,9 @@
-</div>
+        
+        
+        
+<div class ="divMargSides"></div>
+</section>
+
 <footer>
     <div></div>
     <a href ="conditions_et_regles.php">○ Conditions générales et règles de communauté</a>
@@ -9,6 +14,8 @@
 </footer>
 
 <script src= "script.js"></script>
+
+
 
 </body>
 </html>

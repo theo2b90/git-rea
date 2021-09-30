@@ -1,10 +1,12 @@
 
+<body>
+
     <header>
     <!-- <img id="banniere" src="img/banniere.png"> -->
     <nav>
         <div></div>
         <img class ="boxnav" id="imgnavexclu" src="img/logo.png"><img>
-        <a class ="boxnav boxnav2" href="decouvrir.php">Decouvrir
+        <a class ="boxnav boxnav2" href="decouvrir.php">Decouvrir</a>
         <a class ="boxnav boxnav2" href="visite.php">Visites</a>
         <a class ="boxnav boxnav2" href="recherche.php">Recherche</a>
         <a class ="boxnav boxnav2" href="messagerie.php">Messagerie</a>
@@ -15,5 +17,5 @@
     </nav>
     </header>
 
-    <div id = "divBody">
-
+        <section id = "divBody">
+            <div class = "divMargSides"></div>

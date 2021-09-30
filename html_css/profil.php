@@ -14,6 +14,38 @@
     include 'header.php';
 ?>
 
+<div class ="divMargMiddle">
+
+<div id = "divPhoto">
+    <div>
+        <img src ="https://i.picsum.photos/id/1/200/200.jpg?hmac=jZB9EZ0Vtzq-BZSmo7JKBBKJLW46nntxq79VMkCiBG8"></img>
+    </div>
+
+    <div>
+        <div>
+            <button>Modifier</button>
+            <button>supprimer</button>
+        </div>
+            <img src ="https://i.picsum.photos/id/1/200/200.jpg?hmac=jZB9EZ0Vtzq-BZSmo7JKBBKJLW46nntxq79VMkCiBG8"></img>
+            <img src ="https://i.picsum.photos/id/1/200/200.jpg?hmac=jZB9EZ0Vtzq-BZSmo7JKBBKJLW46nntxq79VMkCiBG8"></img>
+            <img src ="https://i.picsum.photos/id/1/200/200.jpg?hmac=jZB9EZ0Vtzq-BZSmo7JKBBKJLW46nntxq79VMkCiBG8"></img>
+            <img src ="https://i.picsum.photos/id/1/200/200.jpg?hmac=jZB9EZ0Vtzq-BZSmo7JKBBKJLW46nntxq79VMkCiBG8"></img>
+            <img src ="https://i.picsum.photos/id/1/200/200.jpg?hmac=jZB9EZ0Vtzq-BZSmo7JKBBKJLW46nntxq79VMkCiBG8"></img>
+            <img src ="https://i.picsum.photos/id/1/200/200.jpg?hmac=jZB9EZ0Vtzq-BZSmo7JKBBKJLW46nntxq79VMkCiBG8"></img>
+            <img src ="https://i.picsum.photos/id/1/200/200.jpg?hmac=jZB9EZ0Vtzq-BZSmo7JKBBKJLW46nntxq79VMkCiBG8"></img>
+            <img src ="https://i.picsum.photos/id/1/200/200.jpg?hmac=jZB9EZ0Vtzq-BZSmo7JKBBKJLW46nntxq79VMkCiBG8"></img>
+            <img src ="https://i.picsum.photos/id/1/200/200.jpg?hmac=jZB9EZ0Vtzq-BZSmo7JKBBKJLW46nntxq79VMkCiBG8"></img>
+    </div>
+</div>
+
+
+
+<div>
+    <form method = "POST" action = "phpscript.php">
+    <textarea placeholder = "Décrivez vous succinctement"></textarea>
+    </form>
+</div>
+
 <h3>Questionnaire</h3>
 <p>Remplire ce questionnaire permettra à tes prétendant(es) de te voir s'il ne te détestes pas trop.  Complète le au maximum et tu auras accès à l'ensemble des profils<p>
 <div>
@@ -89,7 +121,9 @@
             <input type= "checkbox" name="lifestyle4" id="lifestyle4"><label for="lifestyle4">Une personne Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit est, cursus ut magna porttitor, ultrices iaculis felis. Phasellus lorem enim, imperdiet in porta quis, tincidunt vitae ante. Suspendisse tempus nulla sed nulla tincidunt dignissim. Quisque arcu nunc, placerat ac tristique eu, finibus quis sapien. Duis ornare interdum quam, at pellentesque ex iaculis et. Etiam vitae neque accumsan, fringilla mauris a, bibendum dui. Cras non eros lectus. Integer sit amet quam faucibus, ullamcorper nunc eu, cursus tortor. Nam ullamcorper rutrum consectetur. Etiam ut mi pellentesque, euismod risus quis, cursus velit. Donec dictum ante eu velit mollis tincidunt. Aliquam a imperdiet justo. Nulla cursus augue neque. Morbi vitae dui at elit rhoncus tempus et vitae neque. Cras eget ultricies massa.  </label>
         </form>
     </div>
-<!-- Le style display:none est placé dans l'HTML Car dans le CSS, Il ne répond pas et les fenêtres ne sont pas fermées par défault -->
+ <!-- Le style display:none est placé dans l'HTML Car dans le CSS, Il ne répond pas et les fenêtres ne sont pas fermées par défault -->
+
+</div>
 
 </div>
 
