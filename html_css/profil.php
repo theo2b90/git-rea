@@ -122,7 +122,7 @@
     <!-- Le style display:none est placé dans l'HTML Car dans le CSS, Il ne répond pas et les fenêtres ne sont pas fermées par défault -->
     </div>
 
-    <h3>Tips : Contre</h3>
+    <h3>Tips : Son avis sur ta gueule contre un tips</h3>
     <div>
         <form method = "POST" action = "phpscript.php">
         <textarea placeholder = "Bonjour cher utilisateur. Ce champ est destiné à se décrire succinctement. Bien que je pourrais te raconter ma vie, je suis sur que tu n'en a rien à faire, alors je vais t'épargner ce supplice. J'espère que tu vas en faire autant avec tes prétendant(es). Tiens d'ailleurs, cela me fait penser à ma grand mère... Hiers soir quand elle est allé chercher une baguette chez le boulanger, elle est tombé sur un gars, le genre de gars avec un t'shirt et un pull, ce genre de gars. Bref, il lui a dit bonjour et elle lui a même répondu. C'est une histoire que je souhaitais te faire partager... Voila..." rows="13"></textarea>

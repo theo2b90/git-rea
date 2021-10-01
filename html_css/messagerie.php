@@ -17,7 +17,7 @@
 
 <div class ="divMargMiddle" id="messagerie">
 
-    <div id="head_messagerie">
+    <div id="headerMessagerie1">
         <div>
             <div><p>Pseudo_prétendant(e)<p></div>
             <div><a href = "photos_pretendants.php"><img class = "exemplePhoto"src= "img/photo_profil_exemple.png"></img></a></div>
@@ -32,38 +32,40 @@
         </div>
     </div>
 
-    <div id= "headerMessagerie">
+    <div id= "headerMessagerie2">
         <div id= "listMessagerie">
-            <p>messages</p>
             <div>
+                <p>messages</p>
                 <div>
-                    <div><a href = "photos_pretendants.php"><img class = "exemplePhoto2"src= "img/photo_profil_exemple.png"></img></a></div>
-                    <div><p>Pseudo_prétendant(e)<p></div>
-                </div>
+                    <div>
+                        <div><a href = "photos_pretendants.php"><img class = "exemplePhoto2"src= "img/photo_profil_exemple.png"></img></a></div>
+                        <div><p>Pseudo_prétendant(e)<p></div>
+                    </div>
 
-                <div>
-                    <div><a href = "photos_pretendants.php"><img class = "exemplePhoto2"src= "img/photo_profil_exemple.png"></img></a></div>
-                    <div><p>Pseudo_prétendant(e)<p></div>
-                </div>
+                    <div>
+                        <div><a href = "photos_pretendants.php"><img class = "exemplePhoto2"src= "img/photo_profil_exemple.png"></img></a></div>
+                        <div><p>Pseudo_prétendant(e)<p></div>
+                    </div>
 
-                <div>
-                    <div><a href = "photos_pretendants.php"><img class = "exemplePhoto2"src= "img/photo_profil_exemple.png"></img></a></div>
-                    <div><p>Pseudo_prétendant(e)<p></div>
-                </div>
+                    <div>
+                        <div><a href = "photos_pretendants.php"><img class = "exemplePhoto2"src= "img/photo_profil_exemple.png"></img></a></div>
+                        <div><p>Pseudo_prétendant(e)<p></div>
+                    </div>
 
-                <div>
-                    <div><a href = "photos_pretendants.php"><img class = "exemplePhoto2"src= "img/photo_profil_exemple.png"></img></a></div>
-                    <div><p>Pseudo_prétendant(e)<p></div>
-                </div>
+                    <div>
+                        <div><a href = "photos_pretendants.php"><img class = "exemplePhoto2"src= "img/photo_profil_exemple.png"></img></a></div>
+                        <div><p>Pseudo_prétendant(e)<p></div>
+                    </div>
 
-                <div>
-                    <div><a href = "photos_pretendants.php"><img class = "exemplePhoto2"src= "img/photo_profil_exemple.png"></img></a></div>
-                    <div><p>Pseudo_prétendant(e)<p></div>
-                </div>
+                    <div>
+                        <div><a href = "photos_pretendants.php"><img class = "exemplePhoto2"src= "img/photo_profil_exemple.png"></img></a></div>
+                        <div><p>Pseudo_prétendant(e)<p></div>
+                    </div>
 
-                <div>
-                    <div><a href = "photos_pretendants.php"><img class = "exemplePhoto2"src= "img/photo_profil_exemple.png"></img></a></div>
-                    <div><p>Pseudo_prétendant(e)<p></div>
+                    <div>
+                        <div><a href = "photos_pretendants.php"><img class = "exemplePhoto2"src= "img/photo_profil_exemple.png"></img></a></div>
+                        <div><p>Pseudo_prétendant(e)<p></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -102,6 +104,17 @@
                     Nullam metus quam, auctor a aliquam quis, euismod ut sem. Nulla sodales tristique justo, nec interdum dui tempor eget. 
                     In accumsan, mi at dictum lobortis, lacus odio convallis velit, sit amet tincidunt urna justo in velit.
                 </p>
+            </div>
+
+            <div id = "messagerieEnvoie">
+                <div>
+                    <form>
+                        <textarea placeholder = "Bonjour cher utilisateur. Ce champ est destiné à se décrire succinctement. Bien que je pourrais te raconter ma vie, je suis sur que tu n'en a rien à faire, alors je vais t'épargner ce supplice. J'espère que tu vas en faire autant avec tes prétendant(es). Tiens d'ailleurs, cela me fait penser à ma grand mère... Hiers soir quand elle est allé chercher une baguette chez le boulanger, elle est tombé sur un gars, le genre de gars avec un t'shirt et un pull, ce genre de gars. Bref, il lui a dit bonjour et elle lui a même répondu. C'est une histoire que je souhaitais te faire partager... Voila..." rows="13"></textarea>
+                    </form>
+                </div>
+                <div>
+                    <button style="border:0px"><img src ="img/bouton.png"/></button>
+                </div>
             </div>
         </div>
 

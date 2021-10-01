@@ -7,7 +7,7 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
-nav, body, footer, #divPhoto, #divBody, #head_messagerie, #headerMessagerie, #tchat, #listMessagerie div div, #head_messagerie div, #questionnaire div form, #divPhoto div:nth-child(2) button
+nav, body, footer, #divPhoto, #divBody, #headerMessagerie1, #headerMessagerie2, #tchat, #listMessagerie div div div, #head_messagerie div, #questionnaire div form, #divPhoto div:nth-child(2) button
 #divPhoto div:nth-child(2) button, #banniere{
     display: flex; 
 }
@@ -208,7 +208,7 @@ div label{
     margin-top:1em;
 }
 
-div textarea{
+div textarea, #messagerieEnvoie div:nth-child(1){
     width: 95%;
 }
 
@@ -231,21 +231,21 @@ div textarea{
                                                                 Messagerie
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-#head_messagerie div:nth-child(1) div img{
+#headerMessagerie1 div:nth-child(1) div img{
     border-radius: 30%;
     width : 65%; 
 }
 
-#head_messagerie div:nth-child(3) div img{
+#headerMessagerie1 div:nth-child(3) div img{
     border-radius: 30%;
 }
 
-#head_messagerie div{
+#headerMessagerie1 div{
     flex-direction: column;
     align-self: center;
 }
 
-#head_messagerie{
+#headerMessagerie1{
     justify-content: space-between;
 }
 
@@ -255,8 +255,10 @@ div textarea{
 }
 
 #headerTchat{
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+    /* display: grid;
+    grid-template-columns: 3fr 1fr; 
+    Il faut réfler le grid pour qu'il prenne toute la largeur de la page. Etrangement, sans, ca passe avec les display. De toute façon ce n'est qu'une ebauche à replacer avec le back*/
+    margin-left: 2em;
 }
 
 h1{
@@ -275,7 +277,21 @@ h1{
     padding: 10px;
 }
 
+
 #tchat p:nth-child(even){
-    background-color: lightgray;
+    background-color: rgb(180, 24, 24);
     align-self: flex-end;
 }
+
+#messagerieEnvoie{
+    display: flex;
+    align-items: center;
+}
+
+#messagerieEnvoie button img:hover{
+    height : 120%;
+    width: 120%;
+}
+
+
+
