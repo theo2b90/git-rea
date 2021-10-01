@@ -152,8 +152,6 @@
     include 'footer.php';
 ?>
 
-
-
     <!-- <form method="POST" action='TEMPORAIRE.php'>
         <label for="_intro"> ?</label><br/>
         <input type= "checkbox" name="" id=""><label for="">Une personne Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit est, cursus ut magna porttitor, ultrices iaculis felis. Phasellus lorem enim, imperdiet in porta quis, tincidunt vitae ante. Suspendisse tempus nulla sed nulla tincidunt dignissim. Quisque arcu nunc, placerat ac tristique eu, finibus quis sapien. Duis ornare interdum quam, at pellentesque ex iaculis et. Etiam vitae neque accumsan, fringilla mauris a, bibendum dui. Cras non eros lectus. Integer sit amet quam faucibus, ullamcorper nunc eu, cursus tortor. Nam ullamcorper rutrum consectetur. Etiam ut mi pellentesque, euismod risus quis, cursus velit. Donec dictum ante eu velit mollis tincidunt. Aliquam a imperdiet justo. Nulla cursus augue neque. Morbi vitae dui at elit rhoncus tempus et vitae neque. Cras eget ultricies massa.  </label>

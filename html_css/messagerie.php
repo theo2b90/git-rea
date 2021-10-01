@@ -10,14 +10,124 @@
 
 <body>
 
-
 <?php
     include 'header.php';
 ?>
 
-<div class ="divMargMiddle">
 
-    <section>
+<div class ="divMargMiddle" id="messagerie">
+
+    <div id="head_messagerie">
+        <div>
+            <div><p>Pseudo_prétendant(e)<p></div>
+            <div><a href = "photos_pretendants.php"><img class = "exemplePhoto"src= "img/photo_profil_exemple.png"></img></a></div>
+            <div><p>Dernière connection : 21/decembre/2012</p></div>
+        </div>
+        <div>
+            
+            <div><p>Exemple: Here is my tips or my mood : Du genre, J'ai des préférences pour Les Hommes complètement négligés aux oreilles décollées et avec un cheveux sur la langue, ou aujourd'hui, je suis d'humeur massacrante</p></div>
+        </div>
+        <div>
+            <div><img src ="img/nuage_exemple.png"></img></div>
+        </div>
+    </div>
+
+    <div id= "headerMessagerie">
+        <div id= "listMessagerie">
+            <p>messages</p>
+            <div>
+                <div>
+                    <div><a href = "photos_pretendants.php"><img class = "exemplePhoto2"src= "img/photo_profil_exemple.png"></img></a></div>
+                    <div><p>Pseudo_prétendant(e)<p></div>
+                </div>
+
+                <div>
+                    <div><a href = "photos_pretendants.php"><img class = "exemplePhoto2"src= "img/photo_profil_exemple.png"></img></a></div>
+                    <div><p>Pseudo_prétendant(e)<p></div>
+                </div>
+
+                <div>
+                    <div><a href = "photos_pretendants.php"><img class = "exemplePhoto2"src= "img/photo_profil_exemple.png"></img></a></div>
+                    <div><p>Pseudo_prétendant(e)<p></div>
+                </div>
+
+                <div>
+                    <div><a href = "photos_pretendants.php"><img class = "exemplePhoto2"src= "img/photo_profil_exemple.png"></img></a></div>
+                    <div><p>Pseudo_prétendant(e)<p></div>
+                </div>
+
+                <div>
+                    <div><a href = "photos_pretendants.php"><img class = "exemplePhoto2"src= "img/photo_profil_exemple.png"></img></a></div>
+                    <div><p>Pseudo_prétendant(e)<p></div>
+                </div>
+
+                <div>
+                    <div><a href = "photos_pretendants.php"><img class = "exemplePhoto2"src= "img/photo_profil_exemple.png"></img></a></div>
+                    <div><p>Pseudo_prétendant(e)<p></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="headerTchat">
+            <div id="tchat">
+                <h1>Tchat</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo lacus placerat, ultrices quam vitae, luctus odio. 
+                    Nullam metus quam, auctor a aliquam quis, euismod ut sem. Nulla sodales tristique justo, nec interdum dui tempor eget. 
+                    In accumsan, mi at dictum lobortis, lacus odio convallis velit, sit amet tincidunt urna justo in velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo lacus placerat, ultrices quam vitae, luctus odio. 
+                    Nullam metus quam, auctor a aliquam quis, euismod ut sem. Nulla sodales tristique justo, nec interdum dui tempor eget. 
+                    In accumsan, mi at dictum lobortis, lacus odio convallis velit, sit amet tincidunt urna justo in velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo lacus placerat, ultrices quam vitae, luctus odio. 
+                    Nullam metus quam, auctor a aliquam quis, euismod ut sem. Nulla sodales tristique justo, nec interdum dui tempor eget. 
+                    In accumsan, mi at dictum lobortis, lacus odio convallis velit, sit amet tincidunt urna justo in velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo lacus placerat, ultrices quam vitae, luctus odio. 
+                    Nullam metus quam, auctor a aliquam quis, euismod ut sem. Nulla sodales tristique justo, nec interdum dui tempor eget. 
+                    In accumsan, mi at dictum lobortis, lacus odio convallis velit, sit amet tincidunt urna justo in velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo lacus placerat, ultrices quam vitae, luctus odio. 
+                    Nullam metus quam, auctor a aliquam quis, euismod ut sem. Nulla sodales tristique justo, nec interdum dui tempor eget. 
+                    In accumsan, mi at dictum lobortis, lacus odio convallis velit, sit amet tincidunt urna justo in velit.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo lacus placerat, ultrices quam vitae, luctus odio. 
+                    Nullam metus quam, auctor a aliquam quis, euismod ut sem. Nulla sodales tristique justo, nec interdum dui tempor eget. 
+                    In accumsan, mi at dictum lobortis, lacus odio convallis velit, sit amet tincidunt urna justo in velit.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<?php 
+    include 'footer.php';
+?>
+
+<!-- <section>
         <div><p>Messagerie</p></div>
         <div><p>TEMPORAIRE : PHOTO ET PSEUDO DU PRETENDANT + point vert pour afficher connection</p></div>
     </section>
@@ -38,13 +148,4 @@
 
     <section>
         <article><p>envoie de messages ( !!!!!!!!!!!!!!!! POSSIBILITE DE S'AVANCER DES MAINTENANT SUR CETTE PARTIE)</p></article>
-    </section>
-
-</div>
-
-<?php 
-    include 'footer.php';
-?>
-
-
-
+    </section> -->

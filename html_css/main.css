@@ -7,7 +7,8 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
-nav, body, footer, #divPhoto, #divBody{
+nav, body, footer, #divPhoto, #divBody, #head_messagerie, #headerMessagerie, #tchat, #listMessagerie div div, #head_messagerie div, #questionnaire div form, #divPhoto div:nth-child(2) button
+#divPhoto div:nth-child(2) button, #banniere{
     display: flex; 
 }
 
@@ -51,7 +52,7 @@ nav{
     align-items:center;
 }
 
-section .divMargMiddle{
+section .divMargMiddle {
     flex: 20 20 0;
 }
 
@@ -95,7 +96,6 @@ div p{
 #banniere{
     width: 800px;
     height: 300px;
-    display: flex;
     margin: auto auto auto auto;
 }
 
@@ -125,10 +125,9 @@ footer a {
     }
 
     to {
-        right: -300em;
+        bottom: 300em;
         opacity: 0;
         position: absolute;
-        
       }}
 
 header #banniere{
@@ -145,9 +144,7 @@ en l'ejectant de la page web OU d'utiliser un complément Javascript */
 /* _________________________________________________________________________________________________________________________________________________________________ */
 
 
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                                                Messagerie
-------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -201,7 +198,6 @@ div label{
 }
 
 #divPhoto div:nth-child(2) button {
-    display: flex;
     bottom: 16px;
     height: 25%;
     width: 100%;
@@ -218,4 +214,68 @@ div textarea{
 
 #profil p{
     background-color: rgba(128, 0, 128, 0.116);
+}
+
+#questionnaire div form{
+    flex-direction: column;
+}
+
+#questionnaire div form input:not(:nth-child(1)){
+    margin-top: 3em;
+}
+#questionnaire div form label{
+    background-color: ivory;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                Messagerie
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#head_messagerie div:nth-child(1) div img{
+    border-radius: 30%;
+    width : 65%; 
+}
+
+#head_messagerie div:nth-child(3) div img{
+    border-radius: 30%;
+}
+
+#head_messagerie div{
+    flex-direction: column;
+    align-self: center;
+}
+
+#head_messagerie{
+    justify-content: space-between;
+}
+
+.exemplePhoto2{
+    width:50px;
+    border-radius: 1em;
+}
+
+#headerTchat{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+h1{
+    grid-column: 1 /span 2;
+    justify-self: center;
+}
+
+#tchat{
+    padding: 10px;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#tchat p{
+    width: 50%;
+    padding: 10px;
+}
+
+#tchat p:nth-child(even){
+    background-color: lightgray;
+    align-self: flex-end;
 }
