@@ -8,12 +8,11 @@
     <title>Document</title>
 </head>
 
-<body>
+
 
 <?php
     include 'header.php';
 ?>
-
 
 <div class ="divMargMiddle">
 
@@ -24,4 +23,6 @@
 <?php 
     include 'footer.php';
 ?>
+
+
 
