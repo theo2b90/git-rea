@@ -130,7 +130,7 @@
     <!-- Le style display:none est placé dans l'HTML Car dans le CSS, Il ne répond pas et les fenêtres ne sont pas fermées par défault -->
     </div>
 
-    <h3>Tips : Contre</h3>
+    <h3>Tips : Son avis sur ta gueule contre un tips</h3>
     <div>
         <form method = "POST" action = "phpscript.php">
         <textarea placeholder = "Ici place ton tips, si les prétendant(e)s votent pour leurs photo préférée, ils auront l'un de tes conseils avisés pour t'aborder" rows="5"></textarea>
@@ -159,8 +159,6 @@
 <?php 
     include 'footer.php';
 ?>
-
-
 
     <!-- <form method="POST" action='TEMPORAIRE.php'>
         <label for="_intro"> ?</label><br/>

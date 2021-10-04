@@ -7,7 +7,8 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
-nav, body, footer, #divPhoto, #divBody{
+nav, body, footer, #divPhoto, #divBody, #headerMessagerie1, #headerMessagerie2, #tchat, #listMessagerie div div div, #head_messagerie div, #questionnaire div form, #divPhoto div:nth-child(2) button
+#divPhoto div:nth-child(2) button, #banniere{
     display: flex; 
 }
 
@@ -95,7 +96,6 @@ div p{
 #banniere{
     width: 800px;
     height: 300px;
-    display: flex;
     margin: auto auto auto auto;
 }
 
@@ -128,7 +128,6 @@ footer a {
         bottom: 300em;
         opacity: 0;
         position: absolute;
-        
       }}
 
 header #banniere{
@@ -145,9 +144,7 @@ en l'ejectant de la page web OU d'utiliser un complément Javascript */
 /* _________________________________________________________________________________________________________________________________________________________________ */
 
 
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                                                Messagerie
-------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -201,7 +198,6 @@ div label{
 }
 
 #divPhoto div:nth-child(2) button {
-    display: flex;
     bottom: 16px;
     height: 25%;
     width: 100%;
@@ -212,7 +208,7 @@ div label{
     margin-top:1em;
 }
 
-div textarea{
+div textarea, #messagerieEnvoie div:nth-child(1){
     width: 95%;
 }
 
@@ -221,14 +217,93 @@ div textarea{
 }
 
 #questionnaire div form{
+<<<<<<< HEAD
     display:flex;
     flex-direction: column;
 }
 
 
+=======
+    flex-direction: column;
+}
+
+>>>>>>> brancheTest
 #questionnaire div form input:not(:nth-child(1)){
     margin-top: 3em;
 }
 #questionnaire div form label{
     background-color: ivory;
+<<<<<<< HEAD
 }
+=======
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                Messagerie
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#headerMessagerie1 div:nth-child(1) div img{
+    border-radius: 30%;
+    width : 65%; 
+}
+
+#headerMessagerie1 div:nth-child(3) div img{
+    border-radius: 30%;
+}
+
+#headerMessagerie1 div{
+    flex-direction: column;
+    align-self: center;
+}
+
+#headerMessagerie1{
+    justify-content: space-between;
+}
+
+.exemplePhoto2{
+    width:50px;
+    border-radius: 1em;
+}
+
+#headerTchat{
+    /* display: grid;
+    grid-template-columns: 3fr 1fr; 
+    Il faut réfler le grid pour qu'il prenne toute la largeur de la page. Etrangement, sans, ca passe avec les display. De toute façon ce n'est qu'une ebauche à replacer avec le back*/
+    margin-left: 2em;
+}
+
+h1{
+    grid-column: 1 /span 2;
+    justify-self: center;
+}
+
+#tchat{
+    padding: 10px;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#tchat p{
+    width: 50%;
+    padding: 10px;
+}
+
+
+#tchat p:nth-child(even){
+    background-color: rgb(180, 24, 24);
+    align-self: flex-end;
+}
+
+#messagerieEnvoie{
+    display: flex;
+    align-items: center;
+}
+
+#messagerieEnvoie button img:hover{
+    height : 120%;
+    width: 120%;
+}
+
+
+
+>>>>>>> brancheTest
