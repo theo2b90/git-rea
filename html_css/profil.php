@@ -14,6 +14,7 @@
     include 'header.php';
 ?>
 
+
 <div class ="divMargMiddle" id ="profil">
 
     <div id = "divPhoto">
@@ -156,9 +157,11 @@
 </div>
 
 
+
 <?php 
     include 'footer.php';
 ?>
+
 
     <!-- <form method="POST" action='TEMPORAIRE.php'>
         <label for="_intro"> ?</label><br/>
@@ -210,3 +213,4 @@
                 </div>
             </form>
         </div> -->
+

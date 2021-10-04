@@ -14,10 +14,12 @@
     include 'header.php';
 ?>
 
+
 <div class ="divMargMiddle">
 
 
 </div>
+
 
 <?php 
     include 'footer.php';

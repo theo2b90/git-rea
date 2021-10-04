@@ -3,8 +3,10 @@
 
     <header>
     <img id="banniere" src="img/banniere.png">
+      
     <nav>
         <div></div>
+
         <img class ="boxnav" id="imgnavexclu" src="img/logo.png"><img>
         <a class ="boxnav boxnav2" href="decouvrir.php">Decouvrir</a>
         <a class ="boxnav boxnav2" href="visite.php">Visites</a>
@@ -19,3 +21,4 @@
 
         <section id = "divBody">
             <div class = "divMargSides"></div>
+

@@ -1,7 +1,9 @@
+
         
         
         
 <div class ="divMargSides"></div>
+
 </section>
 
 <footer>

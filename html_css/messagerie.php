@@ -15,6 +15,7 @@
 ?>
 
 
+
 <div class ="divMargMiddle" id="messagerie">
 
     <div id="headerMessagerie1">
@@ -126,15 +127,8 @@
 
 
 
-
-
-
-
-
-
-
-
 </div>
+
 
 <?php 
     include 'footer.php';
@@ -162,3 +156,4 @@
     <section>
         <article><p>envoie de messages ( !!!!!!!!!!!!!!!! POSSIBILITE DE S'AVANCER DES MAINTENANT SUR CETTE PARTIE)</p></article>
     </section> -->
+
