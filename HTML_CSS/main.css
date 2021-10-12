@@ -1,0 +1,314 @@
+
+/* Generalités relatives à toutes les pages (header_footer_generalites_etc...)----------------------------------
+-------------------------------------------------------------------------------
+------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                        Selecteurs multiples
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+nav, body, footer, #divPhoto, #divBody, #headerMessagerie1, #headerMessagerie2, #tchat, #listMessagerie div div div, #head_messagerie div, #questionnaire div form, #divPhoto div:nth-child(2) button
+#divPhoto div:nth-child(2) button, #banniere{
+    display: flex; 
+
+}
+
+nav a, #imgnavexclu{
+    flex: 8 8 0;
+}
+
+header nav div{
+    flex: 8 8 0;
+}
+
+nav a, nav{
+    background-color: #bf5ab8;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                Généralités
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+body, header{
+    margin:0;
+    padding: 0;
+    flex-direction:column;
+    background-image: url("img/background.webp");
+    max-width: auto;
+}
+
+a {
+    text-align:center;
+    text-decoration:none;
+    white-space:nowrap;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    padding:15px 10px;
+    margin: 0px; 
+}
+
+a {
+    text-align:center;
+    text-decoration:none;
+    white-space:nowrap;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    flex-direction: column;
+    padding:15px 10px;
+    margin: 0px; 
+}
+
+nav{
+    box-shadow: 0px 0px 10px grey;
+    align-items:center;
+}
+
+
+section .divMargMiddle {
+    flex: 20 20 0;
+}
+
+section .divMargSides{
+    flex: 4 4 0;
+}
+
+footer{
+    justify-content: center;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                            Ciblages précis
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+nav #imgnavexclu{
+    border:none;
+    padding: 0px 30px 0px 0px;
+    min-width: 57px;
+    max-width: 57px;
+
+}
+
+.boxnav{
+    max-width: 120px;
+    border: 1px solid rgba(255, 255, 255, 0.103);
+}
+
+.boxnav2:hover{
+    color:#2b64bf;
+    background-color:white;
+}
+
+div p{ 
+    padding: 11px auto;
+}
+
+/* le padding de div p est obligatoire pour permettre à l'ensemble des cases du nav d'êtres à la même hauteur */
+
+
+#banniere{
+    width: 800px;
+    height: 300px;
+    margin: auto auto auto auto;
+}
+
+nav a, #imgnavexclu{
+    color:white;
+    font-weight: -10px;
+}
+
+
+footer a {
+    font-size: 10px;
+    justify-content: center;
+    color: black;
+}
+
+#anavexclu{
+    flex-basis: auto;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                          Animations
+----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@keyframes animationaction {
+    from {
+        opacity: 1;
+    }
+
+    to {
+
+        bottom: 300em;
+        opacity: 0;
+        position: absolute;
+
+      }}
+
+header #banniere{
+    animation: animationaction 3s forwards;
+}
+
+/* Le display none ne fonctionnant pas dans une animation, il est necessaire d'exclure la bannière
+en l'ejectant de la page web OU d'utiliser un complément Javascript */
+
+
+/* _________________________________________________________________________________________________________________________________________________________________ */
+
+/*_____________________________________________Selecteurs relatifs à une page précise_______________________________________________________________________
+
+/* _________________________________________________________________________________________________________________________________________________________________ */
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                Profil
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+form{
+    padding: 2em;
+}
+
+div label{
+    margin-top: 2em; 
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                Mon compte
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#divPhoto{
+    /* align-self:center; */
+}
+
+#divPhoto div:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 50%;
+    flex: 3;
+    align-self: center;
+    justify-items: center;
+}
+
+#divPhoto:first-child img, #divPhoto div:nth-child(2) img{
+    width: 50%;
+    height: auto;
+    border-radius: 1em;
+    background-color : black;
+    border: 2px;
+    align-self: center;
+    margin-top: 1em;
+}
+
+#divPhoto div:first-child img {
+    width: 100%;
+    height: auto;
+}
+
+#divPhoto div:first-child {
+    padding: 1%;
+    flex: 1;
+}
+
+#divPhoto div:nth-child(2) button {
+    bottom: 16px;
+    height: 25%;
+    width: 100%;
+    font-size: 80%;
+    justify-self: center;
+    position: relative;
+    top: 1em;
+    margin-top:1em;
+}
+
+div textarea, #messagerieEnvoie div:nth-child(1){
+    width: 95%;
+}
+
+#profil p{
+    background-color: rgba(128, 0, 128, 0.116);
+}
+
+#questionnaire div form{
+    flex-direction: column;
+}
+
+
+#questionnaire div form input:not(:nth-child(1)){
+    margin-top: 3em;
+}
+#questionnaire div form label{
+    background-color: ivory;
+
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                Messagerie
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#headerMessagerie1 div:nth-child(1) div img{
+    border-radius: 30%;
+    width : 65%; 
+}
+
+#headerMessagerie1 div:nth-child(3) div img{
+    border-radius: 30%;
+}
+
+#headerMessagerie1 div{
+    flex-direction: column;
+    align-self: center;
+}
+
+#headerMessagerie1{
+    justify-content: space-between;
+}
+
+.exemplePhoto2{
+    width:50px;
+    border-radius: 1em;
+}
+
+#headerTchat{
+    /* display: grid;
+    grid-template-columns: 3fr 1fr; 
+    Il faut réfler le grid pour qu'il prenne toute la largeur de la page. Etrangement, sans, ca passe avec les display. De toute façon ce n'est qu'une ebauche à replacer avec le back*/
+    margin-left: 2em;
+}
+
+h1{
+    grid-column: 1 /span 2;
+    justify-self: center;
+}
+
+#tchat{
+    padding: 10px;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#tchat p{
+    width: 50%;
+    padding: 10px;
+}
+
+
+#tchat p:nth-child(even){
+    background-color: rgb(180, 24, 24);
+    align-self: flex-end;
+}
+
+#messagerieEnvoie{
+    display: flex;
+    align-items: center;
+}
+
+#messagerieEnvoie button img:hover{
+    height : 120%;
+    width: 120%;
+}
+
