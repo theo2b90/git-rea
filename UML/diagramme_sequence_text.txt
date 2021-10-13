@@ -1,0 +1,25 @@
+[4] scénario alternatif d'erreurs : informations incorrectes 
+	4.1 : Informations incorrectes
+	4.2 : Option 1 : L'utilisateur est invité à rentrer de nouveau
+	        ses informations
+        	        Option 2 : Annulation de l'insciption et fin du scénatio alternatif
+
+[6] scénario alternatif d'erreurs : Insertion des informations dans la base de 
+donnée échoués
+	6.1 : Informations incorrectes
+	6.2 : Option 1 : L'utilisateur est invité à rentrer de nouveau
+	ses informations
+                        Option 2 : Annulation de l'insciption et fin du scénario alternatif
+
+[8] Scénario alternatif d'annulation : 
+	8.1 : L'utilisateur annule la saisie pour l'inscription
+	8.2 : Suppression de la base de donnée
+     [8.5] Scénario alternatif d'erreur : La base de donnée n'a pas pu être supprimée
+	8.5.1 : Send signal et fin du scénario alternatif
+
+[11] Scénario alternatif d'inactivité :
+	11.1 : L'utilisateur n'a pas validé son mail
+	11.2 : Après un lapstime, suppression de la base de donnée et 
+	          fin du scénatio alternatif
+
+
