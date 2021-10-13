@@ -44,9 +44,9 @@
 												"$ref": "AAAAAAF75E4GRAU8K10="
 											},
 											"font": "Arial;13;0",
-											"left": 27.55908203125,
+											"left": 29.72998046875,
 											"top": 10,
-											"width": 102.791015625,
+											"width": 115.9052734375,
 											"height": 13,
 											"text": "SequenceDiagram1"
 										},
@@ -59,7 +59,7 @@
 											"font": "Arial;13;1",
 											"left": 10,
 											"top": 10,
-											"width": 12.55908203125,
+											"width": 14.72998046875,
 											"height": 13,
 											"text": "sd"
 										}
@@ -1726,7 +1726,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 152.72998046875,
-											"top": 10,
+											"top": 5,
 											"width": 115.9052734375,
 											"height": 13,
 											"text": "SequenceDiagram1"
@@ -1739,7 +1739,7 @@
 											},
 											"font": "Arial;13;1",
 											"left": 133,
-											"top": 10,
+											"top": 5,
 											"width": 14.72998046875,
 											"height": 13,
 											"text": "sd"
@@ -1747,7 +1747,6 @@
 									],
 									"font": "Arial;13;0",
 									"left": 128,
-									"top": 5,
 									"width": 695,
 									"height": 956,
 									"nameLabel": {
@@ -1903,7 +1902,7 @@
 												"$ref": "AAAAAAF75H/H2KhpMo4="
 											},
 											"edgePosition": 1,
-											"text": "1 : Demander inscription"
+											"text": "1 : Ask registration"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2117,7 +2116,7 @@
 												"$ref": "AAAAAAF75Ha2bqgv4/s="
 											},
 											"font": "Arial;13;0",
-											"left": 211.578125,
+											"left": 203.578125,
 											"top": 181,
 											"width": 123.1162109375,
 											"height": 13,
@@ -2130,7 +2129,7 @@
 												"$ref": "AAAAAAF75Ha2bqgv4/s="
 											},
 											"font": "Arial;13;1",
-											"left": 181,
+											"left": 173,
 											"top": 181,
 											"width": 25.578125,
 											"height": 13,
@@ -2163,7 +2162,7 @@
 																"$ref": "AAAAAAF75Ha2mKg+UxU="
 															},
 															"font": "Arial;13;0",
-															"left": 196,
+															"left": 188,
 															"top": 214,
 															"width": 39.7490234375,
 															"height": 13,
@@ -2171,7 +2170,7 @@
 														}
 													],
 													"font": "Arial;13;0",
-													"left": 176,
+													"left": 168,
 													"top": 199,
 													"width": 633,
 													"height": 43,
@@ -2181,14 +2180,14 @@
 												}
 											],
 											"font": "Arial;13;0",
-											"left": 176,
+											"left": 168,
 											"top": 199,
 											"width": 633,
 											"height": 43
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 176,
+									"left": 168,
 									"top": 176,
 									"width": 633,
 									"height": 369,
@@ -2232,7 +2231,7 @@
 												"$ref": "AAAAAAF75Lpek6pJVaY="
 											},
 											"edgePosition": 1,
-											"text": "2 : Demander informations"
+											"text": "2 : Ask informations"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2343,7 +2342,7 @@
 												"$ref": "AAAAAAF75LrkS6pj+Og="
 											},
 											"edgePosition": 1,
-											"text": "3 : Envoier informations"
+											"text": "3 : Send informations"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2455,7 +2454,7 @@
 												"$ref": "AAAAAAF75HDQ5KdcYDI="
 											},
 											"edgePosition": 1,
-											"text": "5 : Insérer information"
+											"text": "5 : Insert information"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2566,7 +2565,7 @@
 												"$ref": "AAAAAAF75MK/QarYP1w="
 											},
 											"edgePosition": 1,
-											"text": "4 : Verifier informations"
+											"text": "4 : Verify informations"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2788,7 +2787,7 @@
 												"$ref": "AAAAAAF75MRXX6spvSA="
 											},
 											"edgePosition": 1,
-											"text": "7 : Valider insertion"
+											"text": "7 : Validate insertion"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2900,7 +2899,7 @@
 												"$ref": "AAAAAAF75MU4sqtAC/4="
 											},
 											"edgePosition": 1,
-											"text": "8 : Demander validation de création du compte"
+											"text": "8 : Ask account creation by validation"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -3011,7 +3010,7 @@
 												"$ref": "AAAAAAF75MWxl6tWNyU="
 											},
 											"edgePosition": 1,
-											"text": "9 : Confirmer création compte"
+											"text": "9 : Confirm request"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -3123,7 +3122,7 @@
 												"$ref": "AAAAAAF75MbhOKuPUbk="
 											},
 											"edgePosition": 1,
-											"text": "10 : Envoie email confirmation"
+											"text": "10 : Send confirmation email"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -3224,9 +3223,9 @@
 												"$ref": "AAAAAAF75JeHWKj14O4="
 											},
 											"font": "Arial;13;0",
-											"left": 271,
+											"left": 268,
 											"top": 700,
-											"width": 145.7294921875,
+											"width": 150.7822265625,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -3234,7 +3233,7 @@
 												"$ref": "AAAAAAF75JeHWKj2Lnw="
 											},
 											"edgePosition": 1,
-											"text": "11 : Afficher envoie email"
+											"text": "11 : Display sending email"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -3345,7 +3344,7 @@
 												"$ref": "AAAAAAF75MlJ1qvGoxc="
 											},
 											"edgePosition": 1,
-											"text": "12 : Validation du mail"
+											"text": "12 : Email validation"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -3457,7 +3456,7 @@
 												"$ref": "AAAAAAF75MnDcKveP5E="
 											},
 											"edgePosition": 1,
-											"text": "13 : Création du compte"
+											"text": "13 : Account creation"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -3561,10 +3560,10 @@
 									},
 									"font": "Arial;13;0",
 									"left": 848,
-									"top": 224,
-									"width": 289,
-									"height": 129,
-									"text": "[4] scénario alternatif d'erreurs : informations incorrectes \n\t4.1 : Informations incorrectes\n\t4.2 : Option 1 : L'utilisateur est invité à rentrer de nouveau\n\t        ses informations\n        \t        Option 2 : Annulation de l'insciption et fin du scénatio alternatif"
+									"top": 216,
+									"width": 329,
+									"height": 113,
+									"text": "[4] alternative error scenario incorrect information \n4.1: Incorrect information entered\n4.2: Option 1: The user is invited to reenter his information\n       Option 2: Cancellation of registration and end of the alternative scenario"
 								},
 								{
 									"_type": "UMLTextView",
@@ -3573,11 +3572,11 @@
 										"$ref": "AAAAAAF75E4hIQVKyO8="
 									},
 									"font": "Arial;13;0",
-									"left": 856,
-									"top": 376,
+									"left": 848,
+									"top": 320,
 									"width": 265,
 									"height": 169,
-									"text": "[6] scénario alternatif d'erreurs : Insertion des informations dans la base de \ndonnée échoués\n\t6.1 : Informations incorrectes\n\t6.2 : Option 1 : L'utilisateur est invité à rentrer de nouveau\n\tses informations\n                        Option 2 : Annulation de l'insciption et fin du scénario alternatif"
+									"text": "[6] alternative error scenario: Insertion of information into the database\nfailed \n6.1: Incorrect information sent\n6.2: Option 1: The user is invited to reenter\n       his information\n       Option 2: Cancellation of registration and end of the alternative scenario"
 								},
 								{
 									"_type": "UMLTextView",
@@ -3586,11 +3585,11 @@
 										"$ref": "AAAAAAF75E4hIQVKyO8="
 									},
 									"font": "Arial;13;0",
-									"left": 856,
-									"top": 536,
-									"width": 289,
-									"height": 193,
-									"text": "[8] Scénario alternatif d'annulation : \n\t8.1 : L'utilisateur annule la saisie pour l'inscription\n\t8.2 : Suppression de la base de donnée\n     [8.5] Scénario alternatif d'erreur : La base de donnée n'a pas pu être supprimée\n\t8.5.1 : Send signal et fin du scénario alternatif"
+									"left": 848,
+									"top": 456,
+									"width": 345,
+									"height": 115,
+									"text": "[8] Alternative cancellation scenario:\n8.1: The user cancels the entry for registration\n8.2: Deletion of the database\n     [8.5] ​​Alternative error scenario: The database \n      could not be deleted\n      8.5.1: Send signal and end of the alternative \n      scenario"
 								},
 								{
 									"_type": "UMLTextView",
@@ -3599,11 +3598,11 @@
 										"$ref": "AAAAAAF75E4hIQVKyO8="
 									},
 									"font": "Arial;13;0",
-									"left": 856,
-									"top": 680,
+									"left": 848,
+									"top": 576,
 									"width": 257,
 									"height": 97,
-									"text": "[11] Scénario alternatif d'inactivité :\n\t11.1 : L'utilisateur n'a pas validé son mail\n\t11.2 : Après un lapstime, suppression de la base de donnée et \n\t          fin du scénatio alternatif"
+									"text": "[11] Alternative scenario of inactivity:\n11.1: The user has not validated his email\n11.2: After a lapstime, deletion of the database and\nend of the alternative scenario"
 								}
 							]
 						}
@@ -3615,7 +3614,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF75E4hIQVJRDE="
 							},
-							"name": "Demander inscription",
+							"name": "Ask registration",
 							"source": {
 								"$ref": "AAAAAAF75GXfRKZoA+w="
 							},
@@ -3629,7 +3628,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF75E4hIQVJRDE="
 							},
-							"name": "Demander informations",
+							"name": "Ask informations",
 							"source": {
 								"$ref": "AAAAAAF75GX07KaHG2o="
 							},
@@ -3643,7 +3642,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF75E4hIQVJRDE="
 							},
-							"name": "Envoier informations",
+							"name": "Send informations",
 							"source": {
 								"$ref": "AAAAAAF75GXfRKZoA+w="
 							},
@@ -3658,7 +3657,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF75E4hIQVJRDE="
 							},
-							"name": "Verifier informations",
+							"name": "Verify informations",
 							"source": {
 								"$ref": "AAAAAAF75GX07KaHG2o="
 							},
@@ -3672,7 +3671,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF75E4hIQVJRDE="
 							},
-							"name": "Insérer information",
+							"name": "Insert information",
 							"source": {
 								"$ref": "AAAAAAF75GX07KaHG2o="
 							},
@@ -3700,7 +3699,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF75E4hIQVJRDE="
 							},
-							"name": "Valider insertion",
+							"name": "Validate insertion",
 							"source": {
 								"$ref": "AAAAAAF75GX5Fqame3k="
 							},
@@ -3715,7 +3714,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF75E4hIQVJRDE="
 							},
-							"name": "Demander validation de création du compte",
+							"name": "Ask account creation by validation",
 							"source": {
 								"$ref": "AAAAAAF75GX07KaHG2o="
 							},
@@ -3729,7 +3728,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF75E4hIQVJRDE="
 							},
-							"name": "Confirmer création compte",
+							"name": "Confirm request",
 							"source": {
 								"$ref": "AAAAAAF75GXfRKZoA+w="
 							},
@@ -3744,7 +3743,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF75E4hIQVJRDE="
 							},
-							"name": "Envoie email confirmation",
+							"name": "Send confirmation email",
 							"source": {
 								"$ref": "AAAAAAF75GX07KaHG2o="
 							},
@@ -3758,7 +3757,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF75E4hIQVJRDE="
 							},
-							"name": "Afficher envoie email",
+							"name": "Display sending email",
 							"source": {
 								"$ref": "AAAAAAF75GX07KaHG2o="
 							},
@@ -3772,7 +3771,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF75E4hIQVJRDE="
 							},
-							"name": "Validation du mail",
+							"name": "Email validation",
 							"source": {
 								"$ref": "AAAAAAF75GXfRKZoA+w="
 							},
@@ -3787,7 +3786,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF75E4hIQVJRDE="
 							},
-							"name": "Création du compte",
+							"name": "Account creation",
 							"source": {
 								"$ref": "AAAAAAF75GX07KaHG2o="
 							},
