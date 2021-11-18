@@ -1,0 +1,15 @@
+dossier rassemblant toutes les fonctions et classes d'usage générales et applicatives. 
+
+
+Par exemple : le script index.php a besoin d'intégrer des paramètres constants, 
+comme les codes d'accès aux bases de données. On peut mettre ces codes dans un fichier
+parameters.php et contenant par exemple ceci:
+
+$baseLogin = "monlog";
+$basePaswd = "AZERTY";
+$maBase    = "annonces";
+
+Si une page a besoin du contenu de ce fichier, il intégrera les informations de paramétrage de 
+cette manière:
+
+   <?php include 'inc/parameters.php'; ?>

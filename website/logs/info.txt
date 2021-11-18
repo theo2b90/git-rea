@@ -1,0 +1,4 @@
+répertoire logs destiné à enregistrer toutes les actions spéciales:
+    tracage d'actions spéciales
+    enregistrement d'erreurs de fonctionnement serveur, 
+    etc...
