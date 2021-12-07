@@ -1,0 +1,80 @@
+body {
+    padding: 5%;
+  }
+  
+  #field1,
+  #field2 div,
+  #field3,
+  #field4 {
+    width: 40%;
+    margin-right: 50%;
+    margin-left: -5%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  #field1 h5,
+  #field2 h5 {
+    display: flex;
+    align-self: center;
+    text-align: left;
+  }
+  
+  #field2,
+  #field4 {
+    margin-top: auto;
+    margin-bottom: 10%;
+  }
+  
+  #field1 {
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+  
+  #field4 p {
+    font-size: 15px;
+    margin-bottom: 5%;
+  }
+  
+  #field3 {
+    margin-top: 25%;
+    margin-bottom: 9%;
+  }
+  
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  
+  fieldset h5 {
+    font-size: 300%;
+    margin-bottom: 5%;
+  }
+  
+  #field4 h5 {
+    font-size: 300%;
+    margin-bottom: 5%;
+  }
+  
+  p {
+    color: red;
+    font-size: 1rem;
+  }
+  
+  #connect {
+    margin-top: 2em;
+    width: 20%;
+  }
+
+  #carousel1 input:hover,
+  #carousel2 input:hover,
+  #carousel3 input:hover,
+  #carousel4 input:hover{
+      
+      background-color: rgba(255, 255, 255, 0.678);
+  }
+
+
+  
