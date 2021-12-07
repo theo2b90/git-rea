@@ -1,0 +1,442 @@
+
+/* Generalités relatives à toutes les pages (header_footer_generalites_etc...)----------------------------------
+-------------------------------------------------------------------------------
+------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                        Selecteurs multiples
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+nav, body, footer, #divPhoto, #divBody, #headerMessagerie1, #headerMessagerie2, #tchat, #listMessagerie div div div, #head_messagerie div, #questionnaire div form, #divPhoto div:nth-child(2) button
+#divPhoto div:nth-child(2) button, #banniere, #questionnaire div div:nth-of-type(even){
+    display: flex; 
+}
+
+nav a, #imgnavexclu{
+    flex: 8 8 0;
+}
+
+header nav div{
+    flex: 8 8 0;
+}
+
+nav a, nav{
+    background-color: #bf5ab8;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                Généralités
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+body, header{
+    margin:0;
+    padding: 0;
+    flex-direction:column;
+    background-image: url('../img/background.webp');
+    max-width: auto;
+}
+header{
+    position:fixed;
+    width: 100%;
+    z-index: 100;
+}
+.divMargMiddle{
+    margin-top: 2em;
+}
+
+a {
+    text-align:center;
+    text-decoration:none;
+    white-space:nowrap;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    padding:15px 10px;
+    margin: 0px; 
+}
+
+a {
+    text-align:center;
+    text-decoration:none;
+    white-space:nowrap;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    flex-direction: column;
+    padding:15px 10px;
+    margin: 0px; 
+}
+
+nav{
+    box-shadow: 0px 0px 10px grey;
+    align-items:center;
+}
+
+
+section .divMargMiddle {
+    flex: 20 20 0;
+}
+
+section .divMargSides{
+    flex: 4 4 0;
+}
+
+footer{
+    justify-content: center;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                            Ciblages précis
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+nav #imgnavexclu{
+    border:none;
+    padding: 0px 30px 0px 0px;
+    min-width: 57px;
+    max-width: 57px;
+}
+
+.boxnav{
+    max-width: 120px;
+    border: 1px solid rgba(255, 255, 255, 0.103);
+}
+
+.boxnav2:hover{
+    color:#215dbe;
+    background-color:white;
+}
+
+/* div p{ 
+    padding: 11px auto;
+} */
+
+/* le padding de div p est obligatoire pour permettre à l'ensemble des cases du nav d'êtres à la même hauteur */
+
+
+#banniere{
+    width: 800px;
+    height: 300px;
+    margin: auto auto auto auto;
+}
+
+nav a, #imgnavexclu{
+    color:white;
+    font-weight: -10px;
+}
+
+
+footer a {
+    font-size: 10px;
+    justify-content: center;
+    color: black;
+}
+
+#anavexclu{
+    flex-basis: auto;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                          Animations
+----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@keyframes animationaction {
+    from {
+        opacity: 1;
+    }
+
+    to {
+
+        bottom: 300em;
+        opacity: 0;
+        position: absolute;
+
+      }}
+
+header #banniere{
+    animation: animationaction 3s forwards;
+}
+
+/* Le display none ne fonctionnant pas dans une animation, il est necessaire d'exclure la bannière
+en l'ejectant de la page web OU d'utiliser un complément Javascript */
+
+
+/* _________________________________________________________________________________________________________________________________________________________________ */
+
+/*_____________________________________________Selecteurs relatifs à une page précise_______________________________________________________________________
+
+/* _________________________________________________________________________________________________________________________________________________________________ */
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                Profil
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+form{
+    padding: 0em 2em 2em 2em ;
+}
+
+div label{
+    margin-top: 2em; 
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                Mon profil
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+textarea{
+    max-width : 100%;
+    max-height : 50px;
+    border-radius : 10% 30% 50% 70%;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: rgba(63, 60, 71, 0.26);
+    padding: 0em 3em 7em 3em;
+    resize: none;
+    text-align: center;
+    overflow:hidden;
+    overflow-wrap:break-word;
+    position:relative;
+    right:-2em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+textarea::placeholder{
+    font-family: 'Pacifico';
+    text-overflow: ellipsis;
+    padding: 1em 3em 7em 3em;
+    border-radius: inherit ;
+}
+
+#questionnaire div p{
+    width : 60%;
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: 11px;
+    display: flex;
+    margin: 0px auto;
+    margin-top: 1em;
+}
+
+#questionnaire div{
+    margin: auto 3% auto 3%;
+}
+
+.questionnaireQuestion{
+    position:relative;
+    right : 2.5em;
+}
+
+
+#questionnaire div div:nth-of-type(even){
+    justify-content: center;
+  
+}
+
+#questionnaire div div:nth-of-type(even) p{
+    width: 60%;
+    font-size: 15px;
+}
+
+#profil h3{
+    text-align: center;
+    margin: 1em 0em 0em 0em;
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+}
+
+#nuageMotsClefs h3{
+    position: relative;
+    left:1em;
+}
+
+#divPhoto, #description, #questionnaire{
+    background-color: rgb(220, 202, 224);
+    margin-top: 2em;
+    padding: 2em;
+    border-radius : 10% 30% 50% 70%;
+}
+
+#divPhoto div:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 50%;
+    flex: 3;
+    align-self: center;
+    justify-items: center;
+    
+}
+
+#divPhoto:first-child img, #divPhoto div:nth-child(2) img{
+    width: 50%;
+    height: auto;
+    border-radius: 1em;
+    background-color : rgb(0, 0, 0);
+    border: 2px;
+    align-self: center;
+    margin-top: 1em;
+    position : relative;
+    bottom : 1em;
+    
+}
+
+#divPhoto div:first-child img {
+    width: 70%;
+    height: auto;
+    border-radius : 20% 50% 50% 70%;
+    height : 80%;
+    position : relative;
+    bottom : 2em;
+}
+
+#divPhoto div:first-child {
+    padding: 1%;
+    flex: 1;
+}
+
+
+#divPhoto div:nth-child(2) button {
+    bottom: 16px;
+    height: 25%;
+    width: 100%;
+    font-size: 80%;
+    justify-self: center;
+    position: relative;
+    bottom: 1em;
+    right : 2em;
+    margin-top:1em;
+   
+}
+
+div textarea, #messagerieEnvoie div:nth-child(1){
+    width: 95%;
+}
+
+button {
+    border-radius : 10% 30% 50% 70%;
+    padding : 5px;
+    background-color :#51612c98;
+    color: rgb(41, 40, 40);
+    font-family: 'Pacifico';
+    position: relative;
+   
+}
+
+.textArea button{
+    position: relative;
+    top:-2em;
+}
+
+#questionnaire div form{
+    flex-direction: column;
+}
+
+#questionnaire div form input[type="submit"]{
+    margin: 2em 0em 5em 0em;
+}
+
+#questionnaire div form label{
+    background-color: rgba(150, 143, 39, 0.5);
+
+}
+
+#description{
+    text-align: center;
+    
+}
+
+#nuageMotsClefs div img{
+    width : 30%;
+    position: relative;
+    left: 3em;
+    bottom: 1em;
+    margin-top : 1em;
+}
+
+#nuageMotsClefs div button{
+    position: relative;
+    left: 3em;
+    
+}
+
+#nuageMotsClefs div{
+    display: flex;
+    justify-content: center;
+
+}
+
+/* #questionnaireChild form{
+    display: inline-block;
+
+} */
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                Messagerie
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#headerMessagerie1 div:nth-child(1) div img{
+    border-radius: 30%;
+    width : 65%; 
+}
+
+#headerMessagerie1 div:nth-child(3) div img{
+    border-radius: 30%;
+}
+
+#headerMessagerie1 div{
+    flex-direction: column;
+    align-self: center;
+}
+
+#headerMessagerie1{
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.exemplePhoto2{
+    width:50px;
+    border-radius: 1em;
+}
+
+#headerTchat{
+    /* display: grid;
+    grid-template-columns: 3fr 1fr; 
+    Il faut réfler le grid pour qu'il prenne toute la largeur de la page. Etrangement, sans, ca passe avec les display. De toute façon ce n'est qu'une ebauche à replacer avec le back*/
+    margin-left: 2em;
+}
+
+h1{
+    grid-column: 1 /span 2;
+    justify-self: center;
+  
+}
+
+#tchat{
+    padding: 10px;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#tchat p{
+    width: 50%;
+    padding: 10px;
+}
+
+
+#tchat p:nth-child(even){
+    background-color: rgb(180, 24, 24);
+    align-self: flex-end;
+}
+
+#messagerieEnvoie{
+    display: flex;
+    align-items: center;
+}
+
+#messagerieEnvoie button img:hover{
+    height : 120%;
+    width: 120%;
+}
+
